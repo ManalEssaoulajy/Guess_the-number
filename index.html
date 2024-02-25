@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <img id="Logo" src="Images/logo-ensaj.png" style="display:inline-block;">
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <p>Enter a number between 1 and 6:</p>
+    <input type="number" id="numberInput" min="1" max="6">
+    <button onclick="guessNumber()">Guess</button>
+    <div id="result"></div>
+    <img id="numberImage" src="" style="display:none;">
+    <audio id="winSound" src="sounds/win.mp3" style="display:none;"></audio>
+    <audio id="buzSound" src="sounds/buz.mp3" style="display:none;"></audio>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="index.js"></script>
+</body>
+<footer class="footer">
+    <p>Copyright &copy; 2024. All Rights Reserved.</p>
+    <p>Designed by A.Laili </a></p>
+</footer>
+</html>
